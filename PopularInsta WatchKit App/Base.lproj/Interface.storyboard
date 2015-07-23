@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PopularInsta_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="VSF-Cm-87X">
+                            <items>
+                                <tableRow identifier="InstagramPostTableRowController" id="bXy-5t-5nz" customClass="InstagramPostTableRowController" customModule="PopularInsta_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="148.5" alignment="left" layout="vertical" id="WNc-bO-N0O">
+                                        <items>
+                                            <label width="1" height="16.5" alignment="left" text="Label" id="Rbq-YM-5ZW">
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                            <imageView width="1" height="127" alignment="left" id="PU3-p3-XA4"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="interfaceImage" destination="PU3-p3-XA4" id="mkw-9U-vzR"/>
+                                        <outlet property="interfaceLabel" destination="Rbq-YM-5ZW" id="GEo-s9-KPp"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="instagramPostTable" destination="VSF-Cm-87X" id="LqS-Y7-qPp"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="380" y="337"/>
+        </scene>
+    </scenes>
+</document>

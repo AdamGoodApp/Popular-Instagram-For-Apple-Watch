@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		664BB40D1B5D930000BF2BD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BB40C1B5D930000BF2BD9 /* AppDelegate.swift */; };
+		664BB40F1B5D930000BF2BD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BB40E1B5D930000BF2BD9 /* ViewController.swift */; };
+		664BB4121B5D930000BF2BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664BB4101B5D930000BF2BD9 /* Main.storyboard */; };
+		664BB4141B5D930000BF2BD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664BB4131B5D930000BF2BD9 /* Images.xcassets */; };
+		664BB4171B5D930000BF2BD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664BB4151B5D930000BF2BD9 /* LaunchScreen.xib */; };
+		664BB4231B5D930000BF2BD9 /* PopularInstaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664BB4221B5D930000BF2BD9 /* PopularInstaTests.swift */; };
+		664BB42D1B5D931200BF2BD9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 664BB42C1B5D931200BF2BD9 /* Podfile */; };
+		66E76AFE1B5D93DF0041F1A0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E76AFD1B5D93DF0041F1A0 /* InterfaceController.swift */; };
+		66E76B001B5D93DF0041F1A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E76AFF1B5D93DF0041F1A0 /* Images.xcassets */; };
+		66E76B041B5D93DF0041F1A0 /* PopularInsta WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 66E76B031B5D93DF0041F1A0 /* PopularInsta WatchKit App.app */; };
+		66E76B0C1B5D93DF0041F1A0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E76B0A1B5D93DF0041F1A0 /* Interface.storyboard */; };
+		66E76B0E1B5D93DF0041F1A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E76B0D1B5D93DF0041F1A0 /* Images.xcassets */; };
+		66E76B111B5D93DF0041F1A0 /* PopularInsta WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 66E76AF91B5D93DF0041F1A0 /* PopularInsta WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		66E76B1A1B5DB1240041F1A0 /* InstagramPostTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E76B191B5DB1240041F1A0 /* InstagramPostTableRowController.swift */; };
+		CF562BF731BBFED20B403E42 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A46C22B6E97165AE630EBB /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		664BB41D1B5D930000BF2BD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664BB3FF1B5D92FF00BF2BD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664BB4061B5D92FF00BF2BD9;
+			remoteInfo = PopularInsta;
+		};
+		66E76B051B5D93DF0041F1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664BB3FF1B5D92FF00BF2BD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E76B021B5D93DF0041F1A0;
+			remoteInfo = "PopularInsta WatchKit App";
+		};
+		66E76B0F1B5D93DF0041F1A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664BB3FF1B5D92FF00BF2BD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66E76AF81B5D93DF0041F1A0;
+			remoteInfo = "PopularInsta WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		66E76B181B5D93DF0041F1A0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				66E76B111B5D93DF0041F1A0 /* PopularInsta WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		311AE0EDF29B8FD341E7BFF6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		45A46C22B6E97165AE630EBB /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		664BB4071B5D92FF00BF2BD9 /* PopularInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopularInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		664BB40B1B5D92FF00BF2BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664BB40C1B5D930000BF2BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		664BB40E1B5D930000BF2BD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		664BB4111B5D930000BF2BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		664BB4131B5D930000BF2BD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		664BB4161B5D930000BF2BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		664BB41C1B5D930000BF2BD9 /* PopularInstaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopularInstaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		664BB4211B5D930000BF2BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664BB4221B5D930000BF2BD9 /* PopularInstaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularInstaTests.swift; sourceTree = "<group>"; };
+		664BB42C1B5D931200BF2BD9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		66E76AF91B5D93DF0041F1A0 /* PopularInsta WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PopularInsta WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E76AFC1B5D93DF0041F1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E76AFD1B5D93DF0041F1A0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		66E76AFF1B5D93DF0041F1A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66E76B031B5D93DF0041F1A0 /* PopularInsta WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PopularInsta WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66E76B091B5D93DF0041F1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E76B0B1B5D93DF0041F1A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		66E76B0D1B5D93DF0041F1A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66E76B191B5DB1240041F1A0 /* InstagramPostTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramPostTableRowController.swift; sourceTree = "<group>"; };
+		D11EFB92C4A8ABC671E32EC9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		664BB4041B5D92FF00BF2BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF562BF731BBFED20B403E42 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664BB4191B5D930000BF2BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E76AF61B5D93DF0041F1A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		664BB3FE1B5D92FF00BF2BD9 = {
+			isa = PBXGroup;
+			children = (
+				664BB42C1B5D931200BF2BD9 /* Podfile */,
+				664BB4091B5D92FF00BF2BD9 /* PopularInsta */,
+				664BB41F1B5D930000BF2BD9 /* PopularInstaTests */,
+				66E76AFA1B5D93DF0041F1A0 /* PopularInsta WatchKit Extension */,
+				66E76B071B5D93DF0041F1A0 /* PopularInsta WatchKit App */,
+				664BB4081B5D92FF00BF2BD9 /* Products */,
+				87F231CA49024E3B0B5F87DB /* Pods */,
+				F1C59BBA23A77550AFA7D756 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		664BB4081B5D92FF00BF2BD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				664BB4071B5D92FF00BF2BD9 /* PopularInsta.app */,
+				664BB41C1B5D930000BF2BD9 /* PopularInstaTests.xctest */,
+				66E76AF91B5D93DF0041F1A0 /* PopularInsta WatchKit Extension.appex */,
+				66E76B031B5D93DF0041F1A0 /* PopularInsta WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		664BB4091B5D92FF00BF2BD9 /* PopularInsta */ = {
+			isa = PBXGroup;
+			children = (
+				664BB40C1B5D930000BF2BD9 /* AppDelegate.swift */,
+				664BB40E1B5D930000BF2BD9 /* ViewController.swift */,
+				664BB4101B5D930000BF2BD9 /* Main.storyboard */,
+				664BB4131B5D930000BF2BD9 /* Images.xcassets */,
+				664BB4151B5D930000BF2BD9 /* LaunchScreen.xib */,
+				664BB40A1B5D92FF00BF2BD9 /* Supporting Files */,
+			);
+			path = PopularInsta;
+			sourceTree = "<group>";
+		};
+		664BB40A1B5D92FF00BF2BD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				664BB40B1B5D92FF00BF2BD9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		664BB41F1B5D930000BF2BD9 /* PopularInstaTests */ = {
+			isa = PBXGroup;
+			children = (
+				664BB4221B5D930000BF2BD9 /* PopularInstaTests.swift */,
+				664BB4201B5D930000BF2BD9 /* Supporting Files */,
+			);
+			path = PopularInstaTests;
+			sourceTree = "<group>";
+		};
+		664BB4201B5D930000BF2BD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				664BB4211B5D930000BF2BD9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66E76AFA1B5D93DF0041F1A0 /* PopularInsta WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				66E76AFD1B5D93DF0041F1A0 /* InterfaceController.swift */,
+				66E76B191B5DB1240041F1A0 /* InstagramPostTableRowController.swift */,
+				66E76AFF1B5D93DF0041F1A0 /* Images.xcassets */,
+				66E76AFB1B5D93DF0041F1A0 /* Supporting Files */,
+			);
+			path = "PopularInsta WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		66E76AFB1B5D93DF0041F1A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66E76AFC1B5D93DF0041F1A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66E76B071B5D93DF0041F1A0 /* PopularInsta WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				66E76B0A1B5D93DF0041F1A0 /* Interface.storyboard */,
+				66E76B0D1B5D93DF0041F1A0 /* Images.xcassets */,
+				66E76B081B5D93DF0041F1A0 /* Supporting Files */,
+			);
+			path = "PopularInsta WatchKit App";
+			sourceTree = "<group>";
+		};
+		66E76B081B5D93DF0041F1A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66E76B091B5D93DF0041F1A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87F231CA49024E3B0B5F87DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D11EFB92C4A8ABC671E32EC9 /* Pods.debug.xcconfig */,
+				311AE0EDF29B8FD341E7BFF6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1C59BBA23A77550AFA7D756 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45A46C22B6E97165AE630EBB /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		664BB4061B5D92FF00BF2BD9 /* PopularInsta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664BB4261B5D930000BF2BD9 /* Build configuration list for PBXNativeTarget "PopularInsta" */;
+			buildPhases = (
+				9A3A759665C2B75B884B16C9 /* Check Pods Manifest.lock */,
+				664BB4031B5D92FF00BF2BD9 /* Sources */,
+				664BB4041B5D92FF00BF2BD9 /* Frameworks */,
+				664BB4051B5D92FF00BF2BD9 /* Resources */,
+				2184FEF12DA560F6E8CE897A /* Embed Pods Frameworks */,
+				D3D02384F375755E3D12583E /* Copy Pods Resources */,
+				66E76B181B5D93DF0041F1A0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66E76B101B5D93DF0041F1A0 /* PBXTargetDependency */,
+			);
+			name = PopularInsta;
+			productName = PopularInsta;
+			productReference = 664BB4071B5D92FF00BF2BD9 /* PopularInsta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		664BB41B1B5D930000BF2BD9 /* PopularInstaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664BB4291B5D930000BF2BD9 /* Build configuration list for PBXNativeTarget "PopularInstaTests" */;
+			buildPhases = (
+				664BB4181B5D930000BF2BD9 /* Sources */,
+				664BB4191B5D930000BF2BD9 /* Frameworks */,
+				664BB41A1B5D930000BF2BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664BB41E1B5D930000BF2BD9 /* PBXTargetDependency */,
+			);
+			name = PopularInstaTests;
+			productName = PopularInstaTests;
+			productReference = 664BB41C1B5D930000BF2BD9 /* PopularInstaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66E76AF81B5D93DF0041F1A0 /* PopularInsta WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E76B171B5D93DF0041F1A0 /* Build configuration list for PBXNativeTarget "PopularInsta WatchKit Extension" */;
+			buildPhases = (
+				66E76AF51B5D93DF0041F1A0 /* Sources */,
+				66E76AF61B5D93DF0041F1A0 /* Frameworks */,
+				66E76AF71B5D93DF0041F1A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66E76B061B5D93DF0041F1A0 /* PBXTargetDependency */,
+			);
+			name = "PopularInsta WatchKit Extension";
+			productName = "PopularInsta WatchKit Extension";
+			productReference = 66E76AF91B5D93DF0041F1A0 /* PopularInsta WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		66E76B021B5D93DF0041F1A0 /* PopularInsta WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E76B161B5D93DF0041F1A0 /* Build configuration list for PBXNativeTarget "PopularInsta WatchKit App" */;
+			buildPhases = (
+				66E76B011B5D93DF0041F1A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PopularInsta WatchKit App";
+			productName = "PopularInsta WatchKit App";
+			productReference = 66E76B031B5D93DF0041F1A0 /* PopularInsta WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		664BB3FF1B5D92FF00BF2BD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Adamgoodapp;
+				TargetAttributes = {
+					664BB4061B5D92FF00BF2BD9 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = V7DQ232ZW4;
+					};
+					664BB41B1B5D930000BF2BD9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 664BB4061B5D92FF00BF2BD9;
+					};
+					66E76AF81B5D93DF0041F1A0 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = V7DQ232ZW4;
+					};
+					66E76B021B5D93DF0041F1A0 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = V7DQ232ZW4;
+					};
+				};
+			};
+			buildConfigurationList = 664BB4021B5D92FF00BF2BD9 /* Build configuration list for PBXProject "PopularInsta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 664BB3FE1B5D92FF00BF2BD9;
+			productRefGroup = 664BB4081B5D92FF00BF2BD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				664BB4061B5D92FF00BF2BD9 /* PopularInsta */,
+				664BB41B1B5D930000BF2BD9 /* PopularInstaTests */,
+				66E76AF81B5D93DF0041F1A0 /* PopularInsta WatchKit Extension */,
+				66E76B021B5D93DF0041F1A0 /* PopularInsta WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664BB4051B5D92FF00BF2BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664BB4121B5D930000BF2BD9 /* Main.storyboard in Resources */,
+				664BB4171B5D930000BF2BD9 /* LaunchScreen.xib in Resources */,
+				664BB42D1B5D931200BF2BD9 /* Podfile in Resources */,
+				664BB4141B5D930000BF2BD9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664BB41A1B5D930000BF2BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E76AF71B5D93DF0041F1A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E76B041B5D93DF0041F1A0 /* PopularInsta WatchKit App.app in Resources */,
+				66E76B001B5D93DF0041F1A0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E76B011B5D93DF0041F1A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E76B0C1B5D93DF0041F1A0 /* Interface.storyboard in Resources */,
+				66E76B0E1B5D93DF0041F1A0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2184FEF12DA560F6E8CE897A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3A759665C2B75B884B16C9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D02384F375755E3D12583E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		664BB4031B5D92FF00BF2BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664BB40F1B5D930000BF2BD9 /* ViewController.swift in Sources */,
+				664BB40D1B5D930000BF2BD9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664BB4181B5D930000BF2BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664BB4231B5D930000BF2BD9 /* PopularInstaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E76AF51B5D93DF0041F1A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E76B1A1B5DB1240041F1A0 /* InstagramPostTableRowController.swift in Sources */,
+				66E76AFE1B5D93DF0041F1A0 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		664BB41E1B5D930000BF2BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664BB4061B5D92FF00BF2BD9 /* PopularInsta */;
+			targetProxy = 664BB41D1B5D930000BF2BD9 /* PBXContainerItemProxy */;
+		};
+		66E76B061B5D93DF0041F1A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E76B021B5D93DF0041F1A0 /* PopularInsta WatchKit App */;
+			targetProxy = 66E76B051B5D93DF0041F1A0 /* PBXContainerItemProxy */;
+		};
+		66E76B101B5D93DF0041F1A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66E76AF81B5D93DF0041F1A0 /* PopularInsta WatchKit Extension */;
+			targetProxy = 66E76B0F1B5D93DF0041F1A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		664BB4101B5D930000BF2BD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664BB4111B5D930000BF2BD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		664BB4151B5D930000BF2BD9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664BB4161B5D930000BF2BD9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		66E76B0A1B5D93DF0041F1A0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66E76B0B1B5D93DF0041F1A0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		664BB4241B5D930000BF2BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		664BB4251B5D930000BF2BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		664BB4271B5D930000BF2BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11EFB92C4A8ABC671E32EC9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PopularInsta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		664BB4281B5D930000BF2BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311AE0EDF29B8FD341E7BFF6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PopularInsta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		664BB42A1B5D930000BF2BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PopularInstaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopularInsta.app/PopularInsta";
+			};
+			name = Debug;
+		};
+		664BB42B1B5D930000BF2BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PopularInstaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopularInsta.app/PopularInsta";
+			};
+			name = Release;
+		};
+		66E76B121B5D93DF0041F1A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PopularInsta WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		66E76B131B5D93DF0041F1A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "PopularInsta WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		66E76B141B5D93DF0041F1A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = PopularInsta_WatchKit_Extension;
+				INFOPLIST_FILE = "PopularInsta WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		66E76B151B5D93DF0041F1A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = PopularInsta_WatchKit_Extension;
+				INFOPLIST_FILE = "PopularInsta WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		664BB4021B5D92FF00BF2BD9 /* Build configuration list for PBXProject "PopularInsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664BB4241B5D930000BF2BD9 /* Debug */,
+				664BB4251B5D930000BF2BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664BB4261B5D930000BF2BD9 /* Build configuration list for PBXNativeTarget "PopularInsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664BB4271B5D930000BF2BD9 /* Debug */,
+				664BB4281B5D930000BF2BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		664BB4291B5D930000BF2BD9 /* Build configuration list for PBXNativeTarget "PopularInstaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664BB42A1B5D930000BF2BD9 /* Debug */,
+				664BB42B1B5D930000BF2BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E76B161B5D93DF0041F1A0 /* Build configuration list for PBXNativeTarget "PopularInsta WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E76B141B5D93DF0041F1A0 /* Debug */,
+				66E76B151B5D93DF0041F1A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66E76B171B5D93DF0041F1A0 /* Build configuration list for PBXNativeTarget "PopularInsta WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E76B121B5D93DF0041F1A0 /* Debug */,
+				66E76B131B5D93DF0041F1A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 664BB3FF1B5D92FF00BF2BD9 /* Project object */;
+}
