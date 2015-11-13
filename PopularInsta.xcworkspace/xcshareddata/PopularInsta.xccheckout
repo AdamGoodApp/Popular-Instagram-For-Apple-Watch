@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DA9157F0-BA8F-4678-8CD0-7F6942F2816D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PopularInsta</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F088CA28AE88EB9F8E7C8E9B5499743CBC618678</key>
+		<string>github.com:AdamGoodApp/Popular-Instagram-For-Apple-Watch.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PopularInsta.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F088CA28AE88EB9F8E7C8E9B5499743CBC618678</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:AdamGoodApp/Popular-Instagram-For-Apple-Watch.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F088CA28AE88EB9F8E7C8E9B5499743CBC618678</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F088CA28AE88EB9F8E7C8E9B5499743CBC618678</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PopularInsta</string>
+		</dict>
+	</array>
+</dict>
+</plist>
